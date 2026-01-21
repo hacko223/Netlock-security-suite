@@ -26,4 +26,5 @@ Este software se proporciona con de seguridad defensiva. No se asume responsabil
 
 El uso de este programa en sistemas sin autorización expresa es ilegal. El usuario final es el único responsable de la ejecución y las consecuencias de los módulos de aislamiento de red.
 
-
+---
+Este software debe ser utilizado exclusivamente por personal autorizado en administración de sistemas y respuesta ante incidentes.
