@@ -6,7 +6,7 @@ NetLock es una suite de herramientas de **seguridad defensiva** diseñada para e
 Esta suite multiplataforma se divide en tres núcleos especializados:
 
 1. [**Kill-Switch (Windows Desktop)**](./netlock-killswitch): Botón de pánico para usuarios finales.
-2. [**Host-Isolation (Windows Server)**](./netlock-hostisolation): Control granular para infraestructura crítica.
+2. [**Host-Isolation (Windows Server)**](./Netlock-hostisolation): Control granular para infraestructura crítica.
 3. [**Linux Core (Kernel Security)**](./netlock-linux-core): Protección para servidores y estaciones de trabajo Linux.
 
 ### Filosofía del Proyecto
