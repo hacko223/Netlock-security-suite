@@ -24,9 +24,8 @@ Panel de control de seguridad para el aislamiento instantáneo de red en Windows
 ---
 *Este proyecto requiere privilegios de Administrador para funcionar
 
-## Descargo de responsabilidad
+## Descargo de responsabilidad 
 
-Este proyecto fue desarrollado con fines educativos y de seguridad defensiva. El autor no se hace responsable por el uso indebido de esta herramienta, daños colaterales en la infraestructura o pérdida de conectividad accidental. 
+Este software se proporciona con fines educativos y de seguridad defensiva. No se asume responsabilidad alguna por el uso indebido de esta herramienta, posibles daños a la infraestructura o pérdida accidental de conectividad.
 
-El uso de este software en redes o sistemas sin autorización previa es ilegal. El usuario asume toda la responsabilidad por la ejecución de los módulos de aislamiento.
-
+El uso de este programa en sistemas sin autorización expresa es ilegal. El usuario final es el único responsable de la ejecución y las consecuencias de los módulos de aislamiento de red.
