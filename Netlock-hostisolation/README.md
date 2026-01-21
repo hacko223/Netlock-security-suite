@@ -1,4 +1,4 @@
-# NetLock - Host Isolation (Server Windows Edition)
+# NetLock - Host Isolation (Windows Server Edition)
 
 Módulo especializado en el aislamiento de servidores y estaciones de trabajo. Este componente está diseñado para entornos que requieren mantener un canal de gestión seguro mientras se restringe el tráfico de red restante.
 
