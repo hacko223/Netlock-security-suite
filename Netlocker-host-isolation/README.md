@@ -10,6 +10,8 @@ Este módulo implementa políticas de seguridad basadas en el modelo de Confianz
 - **Stateful Blocking:** Bloqueo dinámico de puertos mediante reglas de firewall persistentes.
 - **Resistencia a Reinicios:** Configuración de reglas que permanecen activas tras un reinicio del sistema.
 - **Registro de Auditoría:** Almacenamiento de logs de actividad para análisis forense posterior.
+- **contraseña con cifrado**
+este tieme una opción de contraseña, cifrada con SHA-256 para mayor seguridad y evitar accesos no autorizados 
 
 ### Especificaciones
 - **Controlador:** PowerShell Core / Windows Command Line.
