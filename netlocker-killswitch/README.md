@@ -16,7 +16,7 @@ NetLocker Kill-Switch permite al usuario neutralizar cualquier intento de exfilt
 - **Arquitectura:** x86 / x64.
 - **Requerimientos:** Privilegios de Administrador (necesarios para interactuar con el servicio de filtrado de red).
 - **Compatibilidad:** Windows 10 y Windows 11.
-- **archivo .sig:** nececita ir acompañado del archivo porque si no el porgrama no puede hacer el cheksum lo wue provocsria que se cerrara automáticamente por seguridad 
+- **archivo .sig:** nececita ir acompañado del archivo porque si no el programa no puede hacer el cheksum lo que provocaría que se cerrara automáticamente por seguridad, con cada actualización debe bajar los dos archivos, `.exe` y `sig`
 
 ### Instrucciones de Seguridad
 Este ejecutable debe ser almacenado en un lugar de fácil acceso (Escritorio o barra de tareas) para ser activado rápidamente durante un incidente. Se recomienda no modificar las reglas generadas manualmente para evitar conflictos de seguridad.
