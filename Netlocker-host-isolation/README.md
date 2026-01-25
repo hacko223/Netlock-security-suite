@@ -1,19 +1,19 @@
 # NetLocker - Host Isolation (Windows Server Edition)
 
-Módulo especializado en el aislamiento de servidores y estaciones de trabajo. Este componente está diseñado para entornos que requieren mantener un canal de gestión seguro mientras se restringe el tráfico de red restante.
+Módulo especializado en el aislamiento de Módulo especializado en el aislamiento de servidores y estaciones de trabajo. Este componente está diseñado para entornos que requieren mantener un canal de gestión seguro mientras se restringe el tráfico de red restante.
 
 ### Descripción
 Este módulo implementa políticas de seguridad basadas en el modelo de Confianza Cero (Zero Trust). Su función principal es la respuesta ante incidentes de Ransomware y la mitigación de ataques de Movimiento Lateral dentro de infraestructuras empresariales.
 
 ### Funcionalidades Técnicas
 - **Management Bypass:** Permite definir direcciones IP o subredes de administración para mantener el acceso remoto (RDP/SSH).
+- **Watchdog Centinela:** Hilo persistente que monitorea el firewall cada 20 segundos para revertir cambios no autorizados.
 - **Stateful Blocking:** Bloqueo dinámico de puertos mediante reglas de firewall persistentes.
-- **Resistencia a Reinicios:** Configuración de reglas que permanecen activas tras un reinicio del sistema.
+- **Resistencia a Reinicios:** Configuración de persistencia mediante el Registro de Windows (HKCU) para inicio automático.
+- **Hardware Whitelisting (WMI):** Registro de dispositivos USB autorizados mediante la captura de su Serial ID único a través de consultas profundas de hardware.
 - **Registro de Auditoría:** Almacenamiento de logs de actividad para análisis forense posterior.
-- **contraseña con cifrado**
-Netlocker tiene una opción de contraseña, cifrada con SHA-512 para mayor seguridad y evitar accesos no autorizados
-- **checksum**
-NetLocker implementa un sistema de verificación de integridad basado en **SHA-512** para asegurar que los archivos críticos no hayan sido manipulados por terceros o software malicioso, en cada inicio se realizara un checksum, si es modificado externamente el programa se bloquera automáticamente por seguridad
+- **Contraseña con cifrado:** NetLocker requiere una contraseña maestra cifrada con **SHA-512** para validar cada acción crítica.
+- **Checksum Dinámico:** Sistema de verificación de integridad basado en **SHA-512** para asegurar que los archivos críticos y la base de datos no hayan sido manipulados
 
 ### Cómo verificar la integridad manualmente
 Si deseas verificar que tu ejecutable no ha sido alterado, puedes generar el hash del archivo `.exe` con PowerShell:
