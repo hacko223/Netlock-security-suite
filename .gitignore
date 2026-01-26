@@ -209,7 +209,7 @@ __marimo__/
 # NetLocker Sensitive Data
 netlocker_access.key
 trusted_devices.db
-db_integrity.hash
+!db_integrity.hash
 netlocker_server_logs.txt
 
 # NetLocker Critical Security Bypass
