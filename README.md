@@ -17,7 +17,7 @@ Esta suite multiplataforma se divide en tres núcleos especializados:
 ### Instalación y Uso
 Cada módulo contiene su propia documentación técnica y guías de implementación. Por favor, navegue a la carpeta correspondiente para más detalles.
 
-###Mantente Informado
+### Mantente Informado
 Si usas NetLocker en producción, haz clic en el botón **"Watch"** (arriba a la derecha) y selecciona **"Custom -> Releases"**. 
 GitHub te enviará un correo cada vez que publiquemos un parche de seguridad o una nueva versión.
 
