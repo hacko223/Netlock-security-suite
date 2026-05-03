@@ -76,4 +76,4 @@ Este software es una herramienta de seguridad defensiva. El autor no se hace res
 
 ---
 **Desarrollado por:** hacko223  
-**Licencia:** MIT (2026)
+**Licencia:** GNU GPL v3 (2026)
