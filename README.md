@@ -38,3 +38,5 @@ GitHub te enviará un correo cada vez que publiquemos un parche de seguridad o u
 Este software se proporciona con fines de seguridad defensiva. No se asume responsabilidad alguna por el uso indebido de esta herramienta, posibles daños a la infraestructura o pérdida accidental de conectividad.
 
 El uso de este programa en sistemas sin autorización expresa es ilegal. El usuario final es el único responsable de la ejecución y las consecuencias de los módulos de aislamiento de red.
+
+se encuentra en desarrollo y sujeto a errores
