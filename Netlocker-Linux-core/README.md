@@ -71,6 +71,7 @@ La versión Server Edition escribe automáticamente en `/var/log/netlocker.log`,
 
 ## 7. Descargo de Responsabilidad (Disclaimer)
 Este software es una herramienta de seguridad defensiva. El autor no se hace responsable por la pérdida accidental de conectividad o daños derivados de una mala configuración. 
+actualmente en desarrollo 
 
 **ADVERTENCIA:** El uso del modo `--panic` en servidores remotos sin acceso físico o consola serie (KVM/IPMI) resultará en un bloqueo permanente de la gestión.
 
